@@ -36,27 +36,27 @@ Simple React application managing your User Contacts.
 
 `src/components/`Contains 4 folders **(* Contacts, Footer, Homepage, Navigation *)** which defines the components used in application.
 
-`src/components/Contacts/`Contains 3 folders **(* Add, Details, Edit *)** which describes the main functions of the application. The folders contains also 3 components **(* AddContactCard.js, ContactCard.js, HeaderTitle.js *)**.
+`src/components/Contacts/` Contains 3 folders **(* Add, Details, Edit *)** which describes the main functions of the application. The folders contains also 3 components **(* AddContactCard.js, ContactCard.js, HeaderTitle.js *)**.
 
-`src/components/Contacts/Add/`Contains 4 components **(* CancelButton.js, Input.js, Select.js, SubmitButton.js *)**.
+`src/components/Contacts/Add/` Contains 4 components **(* CancelButton.js, Input.js, Select.js, SubmitButton.js *)**.
 
-`src/components/Contacts/Details/`Contains 1 component **(* ContactProfile.js *)**.
+`src/components/Contacts/Details/` Contains 1 component **(* ContactProfile.js *)**.
 
-`src/components/Contacts/Edit/`Contains 4 components **(* CancelButton.js, Input.js, Select.js, SubmitButton.js *)**.
+`src/components/Contacts/Edit/` Contains 4 components **(* CancelButton.js, Input.js, Select.js, SubmitButton.js *)**.
 
-`src/components/Footer/`Contains 1 component **(* Footer.js *)**.
+`src/components/Footer/` Contains 1 component **(* Footer.js *)**.
 
-`src/components/Header/`Contains 2 components **(* Header.js, HeaderButton.js *)**.
+`src/components/Header/` Contains 2 components **(* Header.js, HeaderButton.js *)**.
 
-`src/components/Navigation/`Contains 1 folder **(*-test -*)** and 1 component **(* Navigation.js *)**.
+`src/components/Navigation/` Contains 1 folder **(*-test -*)** and 1 component **(* Navigation.js *)**.
 
-`src/components/Navigation/__test__/`Contains 1 file **(* Navigation.test.js *)**.
+`src/components/Navigation/__test__/` Contains 1 file **(* Navigation.test.js *)**.
 
-`src/components/layouts/`Contains 1 component **(* DefaultLayout.js *)**.
+`src/components/layouts/` Contains 1 component **(* DefaultLayout.js *)**.
 
-`src/components/modules/`Contains 1 file **(* DexieDatabase.js *)** which contains the setup of the application database.
+`src/components/modules/` Contains 1 file **(* DexieDatabase.js *)** which contains the setup of the application database.
 
-`src/components/pages/`Contains 5 files **(* ContactAdd.js, ContactDetails.js, ContactEdit.js, Contacts.js, Home.js *)**.
+`src/components/pages/` Contains 5 files **(* ContactAdd.js, ContactDetails.js, ContactEdit.js, Contacts.js, Home.js *)**.
 
 ## Workflow
 The app starts with the Homepage screen which contains the navigation which is a global component and contains a logo made from 2 elements (an svg icon and some text) and also 2 NavLinks , the main section of the app which is dynamic and the footer of the app that contains which is also global ans contains some text.
