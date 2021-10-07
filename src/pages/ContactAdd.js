@@ -46,7 +46,7 @@ const ContactsAdd = () => {
         });
 
         /* Redirecting to /contacts page */
-        history.push("/k-react-test/contacts");
+        history.push("/contacts");
     }
 
 

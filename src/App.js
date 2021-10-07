@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -13,27 +13,27 @@ import DefaultLayout from "./layouts/DefaultLayout";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <DefaultLayout>
         <Switch>
-          <Route path="/k-react-test" exact>
+          <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/k-react-test/contacts" exact>
+          <Route path="/contacts" exact>
             <Contacts />
           </Route>
-          <Route path="/k-react-test/contacts/details/:contactId" exact>
+          <Route path="/contacts/details/:contactId" exact>
             <ContactDetails />
           </Route>
-          <Route path="/k-react-test/contacts/edit/:contactId" exact>
+          <Route path="/contacts/edit/:contactId" exact>
             <ContactEdit />
           </Route>
-          <Route path="/k-react-test/contacts/add" exact>
+          <Route path="/contacts/add" exact>
             <ContactAdd />
           </Route>
         </Switch>
       </DefaultLayout>
-    </Router>
+    </HashRouter>
   );
 }
 
