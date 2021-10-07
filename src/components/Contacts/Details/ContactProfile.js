@@ -25,21 +25,21 @@ function ContactProfile({ id, name, email, phone, age, gender, occupation, avata
             <div className="flex flex-col">
                 <div className="">
                     <div className="flex-none sm:flex">
-                        <div className="h-32 w-32 sm:mb-0 mb-3">
-                            <img src={avatar} alt="aji" className=" w-32 h-32 object-cover rounded-full border-4 border-white shadow-lg" />
+                        <div className="h-32 w-32 sm:mb-0 mb-3 flex justify-center items-center mx-auto">
+                            <img src={avatar} alt="Contact Avatar" className="w-32 h-32 object-cover rounded-full border-4 border-white shadow-lg align-middle" />
                         </div>
                         <div className="flex-auto sm:ml-5 justify-evenly">
-                            <div className="flex items-center justify-between sm:mt-2">
+                            <div className="flex items-center justify-center md:justify-between sm:mt-2">
                                 <div className="flex items-center">
                                     <div className="flex flex-col">
-                                        <div className="w-full flex-none text-lg text-gray-800 font-bold leading-none">{name}</div>
+                                        <div className="w-full flex-none text-center sm:text-left text-lg text-gray-800 font-bold leading-none">{name}</div>
                                         <div className="flex-auto text-gray-500 my-1">
                                             <span className="mr-3 ">{occupation}</span><span className="mr-3 border-r border-gray-200  max-h-0"></span><span>{age} yrs old</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex justify-between items-end pt-2 text-sm text-gray-500">
+                            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center md:items-end pt-2 text-sm text-gray-500">
                                 <div className="flex flex-col">
                                     <div className="flex-1 inline-flex items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -60,7 +60,7 @@ function ContactProfile({ id, name, email, phone, age, gender, occupation, avata
                                         <p className="capitalize">{gender}</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div className="mt-8 md:mt-0">
                                     <button onClick={() => deleteContactHandle(id)} className="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-red-400 hover:bg-red-500 focus:shadow-outline focus:outline-none mr-2 text-xs">Delete</button>
                                     <Link to={`/contacts/edit/${id}`} className="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none text-xs">Edit user details</Link>
                                 </div>

@@ -17,12 +17,12 @@ function Contacts() {
         <>
             <HeaderTitle title="Contacts list" />
             <div className="flex flex-wrap -mx-2 mt-10">
-                <div className="w-1/4 my-2 px-2">
+                <div className="w-full sm:w-1/2 md:w-1/4 my-2 px-2">
                     <AddContactCard />
                 </div>
 
                 {allContacts.map((props) => (
-                    <div key={props.id} className="w-1/4 my-2 px-2">
+                    <div key={props.id} className="w-full sm:w-1/2 md:w-1/4 my-2 px-2">
                         <ContactCard {...props}/>
                     </div>
                 ))

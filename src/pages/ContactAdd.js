@@ -53,7 +53,7 @@ const ContactsAdd = () => {
     return (
         <>
             <HeaderTitle title="Add contact" />
-            <form onSubmit={handleSubmit(submitFormHandler)} className="mt-10 flex flex-col px-12">
+            <form onSubmit={handleSubmit(submitFormHandler)} className="mt-10 flex flex-col md:px-12">
 
                 <Input type="text" id="name" name="name" label="Full Name" register={register} required />
                 <Input type="email" id="email" name="email" label="Email Address" register={register} required />
