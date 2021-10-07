@@ -1,9 +1,6 @@
 import Dexie from "dexie";
-const indexedDB = require("fake-indexeddb");
-const IDBKeyRange = require("fake-indexeddb/lib/FDBKeyRange");
-
 /* Initialize a new Database named KeykoDatabase */
-const db = new Dexie("KeykoDatabase", { indexedDB: indexedDB, IDBKeyRange: IDBKeyRange });
+const db = new Dexie("KeykoDatabase");
 
 /* Create a table called contacts in the database and define its columns */
 db.version(1).stores({

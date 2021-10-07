@@ -94,7 +94,6 @@ The application is currently extended with the following plugins.
 | React Hook Form | [https://react-hook-form.com](https://react-hook-form.com/) |
 | React Router | [https://reactrouter.com](https://reactrouter.com/) |
 | Autoprefixer | [https://github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer) |
-| fake-indexeddb| [https://www.npmjs.com/package/fake-indexeddb](https://www.npmjs.com/package/fake-indexeddb) |
 | PostCSS | [https://postcss.org](https://postcss.org/) |
 | Tailwindcss | [https://tailwindcss.com](https://tailwindcss.com/) |
 
