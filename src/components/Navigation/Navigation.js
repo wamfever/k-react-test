@@ -8,7 +8,7 @@ export const Navigation = () => {
                 <div className="relative flex items-center justify-between">
                     <div className="flex items-center">
                         <Link
-                            to="/"
+                            to="/k-react-test"
                             className="inline-flex items-center mr-8"
                         >
                             <span className="text-xl font-bold tracking-tight text-gray-900 uppercase flex items-center">
@@ -21,7 +21,7 @@ export const Navigation = () => {
                     </div>
                     <ul className="flex items-center text-sm space-x-8 lg:flex">
                         <li>
-                            <NavLink to="/"
+                            <NavLink to="/k-react-test"
                                 exact
                                 activeClassName="text-deep-purple-accent-400"
                                 className="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -30,7 +30,7 @@ export const Navigation = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contacts"
+                            <NavLink to="/k-react-test/contacts"
                                 exact
                                 activeClassName="text-deep-purple-accent-400"
                                 className="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"

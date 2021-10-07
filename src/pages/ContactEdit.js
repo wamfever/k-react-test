@@ -63,7 +63,7 @@ const ContactsEdit = () => {
         });
 
         /* Redirecting to the previous contact details page */
-        history.push(`/contacts/details/${id}`);
+        history.push(`/k-react-test/contacts/details/${id}`);
 
     }
 

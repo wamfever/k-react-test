@@ -16,7 +16,7 @@ function ContactProfile({ id, name, email, phone, age, gender, occupation, avata
             await DexieDatabase.delete(id);
 
             /* Redirecting to the /contacts page */
-            history.push("/contacts");
+            history.push("/k-react-test/contacts");
         }
     }
 
@@ -62,7 +62,7 @@ function ContactProfile({ id, name, email, phone, age, gender, occupation, avata
                                 </div>
                                 <div>
                                     <button onClick={() => deleteContactHandle(id)} className="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-red-400 hover:bg-red-500 focus:shadow-outline focus:outline-none mr-2 text-xs">Delete</button>
-                                    <Link to={`/contacts/edit/${id}`} className="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none text-xs">Edit user details</Link>
+                                    <Link to={`/k-react-test/contacts/edit/${id}`} className="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none text-xs">Edit user details</Link>
                                 </div>
                             </div>
                         </div>

@@ -16,19 +16,19 @@ function App() {
     <Router>
       <DefaultLayout>
         <Switch>
-          <Route path="/" exact>
+          <Route path="/k-react-test" exact>
             <Home />
           </Route>
-          <Route path="/contacts" exact>
+          <Route path="/k-react-test/contacts" exact>
             <Contacts />
           </Route>
-          <Route path="/contacts/details/:contactId" exact>
+          <Route path="/k-react-test/contacts/details/:contactId" exact>
             <ContactDetails />
           </Route>
-          <Route path="/contacts/edit/:contactId" exact>
+          <Route path="/k-react-test/contacts/edit/:contactId" exact>
             <ContactEdit />
           </Route>
-          <Route path="/contacts/add" exact>
+          <Route path="/k-react-test/contacts/add" exact>
             <ContactAdd />
           </Route>
         </Switch>
