@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/k-react-test/static/css/main.3bf0623a.chunk.css",
-    "main.js": "/k-react-test/static/js/main.b759e0a7.chunk.js",
-    "main.js.map": "/k-react-test/static/js/main.b759e0a7.chunk.js.map",
-    "runtime-main.js": "/k-react-test/static/js/runtime-main.b138e268.js",
-    "runtime-main.js.map": "/k-react-test/static/js/runtime-main.b138e268.js.map",
-    "static/js/2.5158061e.chunk.js": "/k-react-test/static/js/2.5158061e.chunk.js",
-    "static/js/2.5158061e.chunk.js.map": "/k-react-test/static/js/2.5158061e.chunk.js.map",
-    "static/js/3.5e9d0bfe.chunk.js": "/k-react-test/static/js/3.5e9d0bfe.chunk.js",
-    "static/js/3.5e9d0bfe.chunk.js.map": "/k-react-test/static/js/3.5e9d0bfe.chunk.js.map",
+    "main.css": "/k-react-test/static/css/main.9a0f7bee.chunk.css",
+    "main.js": "/k-react-test/static/js/main.a5175790.chunk.js",
+    "main.js.map": "/k-react-test/static/js/main.a5175790.chunk.js.map",
+    "runtime-main.js": "/k-react-test/static/js/runtime-main.943d4f13.js",
+    "runtime-main.js.map": "/k-react-test/static/js/runtime-main.943d4f13.js.map",
+    "static/js/2.64e73ca4.chunk.js": "/k-react-test/static/js/2.64e73ca4.chunk.js",
+    "static/js/2.64e73ca4.chunk.js.map": "/k-react-test/static/js/2.64e73ca4.chunk.js.map",
     "index.html": "/k-react-test/index.html",
-    "static/css/main.3bf0623a.chunk.css.map": "/k-react-test/static/css/main.3bf0623a.chunk.css.map",
-    "static/js/2.5158061e.chunk.js.LICENSE.txt": "/k-react-test/static/js/2.5158061e.chunk.js.LICENSE.txt"
+    "static/css/main.9a0f7bee.chunk.css.map": "/k-react-test/static/css/main.9a0f7bee.chunk.css.map",
+    "static/js/2.64e73ca4.chunk.js.LICENSE.txt": "/k-react-test/static/js/2.64e73ca4.chunk.js.LICENSE.txt",
+    "static/media/icon-arrow.73523a1f.svg": "/k-react-test/static/media/icon-arrow.73523a1f.svg",
+    "static/media/icon-book.2e6b6088.svg": "/k-react-test/static/media/icon-book.2e6b6088.svg",
+    "static/media/icon-checkmark.ba0bc721.svg": "/k-react-test/static/media/icon-checkmark.ba0bc721.svg",
+    "static/media/icon-edit.3b854098.svg": "/k-react-test/static/media/icon-edit.3b854098.svg",
+    "static/media/icon-email.3234b2a7.svg": "/k-react-test/static/media/icon-email.3234b2a7.svg",
+    "static/media/icon-gender.c9b4b763.svg": "/k-react-test/static/media/icon-gender.c9b4b763.svg",
+    "static/media/icon-phone.17194f0e.svg": "/k-react-test/static/media/icon-phone.17194f0e.svg",
+    "static/media/icon-plus.7415aa37.svg": "/k-react-test/static/media/icon-plus.7415aa37.svg",
+    "static/media/icon-trash.c452fe5b.svg": "/k-react-test/static/media/icon-trash.c452fe5b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b138e268.js",
-    "static/js/2.5158061e.chunk.js",
-    "static/css/main.3bf0623a.chunk.css",
-    "static/js/main.b759e0a7.chunk.js"
+    "static/js/runtime-main.943d4f13.js",
+    "static/js/2.64e73ca4.chunk.js",
+    "static/css/main.9a0f7bee.chunk.css",
+    "static/js/main.a5175790.chunk.js"
   ]
 }
