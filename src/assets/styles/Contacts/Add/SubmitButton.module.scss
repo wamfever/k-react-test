@@ -1,0 +1,17 @@
+.submit_button {
+  background: var(--mainColor);
+  color: white;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  &__svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+}

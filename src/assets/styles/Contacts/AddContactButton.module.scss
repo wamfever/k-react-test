@@ -1,0 +1,24 @@
+.add_contact_button {
+  background: var(--mainColor);
+  color: white;
+  border-radius: 5px;
+  padding: 7px 15px;
+  display: block;
+  margin: 43px 0 35px 0;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+}

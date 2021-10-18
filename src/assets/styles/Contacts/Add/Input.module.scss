@@ -1,0 +1,21 @@
+.input {
+  background: #2b2d3a;
+  border: 1px solid #2b2d3a;
+  outline: none;
+  color: #eeeeee;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 4px;
+
+  &:focus {
+    border-color: #1663ad;
+  }
+
+  &__label {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #eeeeee;
+    margin-bottom: 4px;
+  }
+}

@@ -1,0 +1,14 @@
+.contact_profile {
+  &__svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+
+    &__trash,
+    &__edit {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+  }
+}
